@@ -1,0 +1,11 @@
+<svg id="Tick_Box_icon" data-name="Tick Box icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="72" height="72" viewBox="0 0 72 72">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Background" width="72" height="72" fill="rgba(0,0,0,0)" stroke="#25c3e8" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <rect id="Background-2" data-name="Background" width="72" height="72" fill="rgba(0,0,0,0)"/>
+  <g id="Tick_Box_icon-2" data-name="Tick Box icon" clip-path="url(#clip-path)">
+    <path id="Shape" d="M51,60H9a9.044,9.044,0,0,1-9-9V9A9.044,9.044,0,0,1,9,0H36V6H9A3,3,0,0,0,6,9V51a3,3,0,0,0,3,3H51a3,3,0,0,0,3-3V27h6V51a9.044,9.044,0,0,1-9,9ZM27.662,43.905h0l-15.38-15.38,4.242-4.243L27.539,35.3,55.418,5.742l4.365,4.119L27.662,43.9Z" transform="translate(6 6)" fill="rgba(0,0,0,0)" stroke="#25c3e8" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>

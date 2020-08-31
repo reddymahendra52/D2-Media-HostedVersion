@@ -1,0 +1,11 @@
+<svg id="angle-down-solid" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.75" height="30" viewBox="0 0 18.75 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Background" width="18.75" height="30" fill="rgba(0,0,0,0)"/>
+    </clipPath>
+  </defs>
+  <rect id="Background-2" data-name="Background" width="18.75" height="30" fill="rgba(0,0,0,0)"/>
+  <g id="angle-down-solid-2" data-name="angle-down-solid" clip-path="url(#clip-path)">
+    <path id="Shape" d="M8.382,11.692.413,3.724a1.4,1.4,0,0,1,0-1.986L1.737.413a1.4,1.4,0,0,1,1.986,0L9.372,6.062,15.021.413a1.4,1.4,0,0,1,1.986,0l1.324,1.324a1.4,1.4,0,0,1,0,1.986l-7.969,7.969a1.393,1.393,0,0,1-1.98,0Z" transform="translate(-0.003 8.95)" fill="#c10001"/>
+  </g>
+</svg>

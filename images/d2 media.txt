@@ -1,0 +1,4 @@
+pink color code:#FF00FF
+red color code:#C10000
+light blue color code:#25C3E8
+font family: Lucida handwriting for headings or h1 and lucida sans for paragraphs

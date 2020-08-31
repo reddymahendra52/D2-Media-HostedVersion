@@ -1,0 +1,286 @@
+.navbar-nav>li>a {
+    font-size: x-large;
+}
+
+.navbar-brand>img {
+    max-width: 100%;
+    height: 50px;
+}
+
+#lastone {
+    padding-top: 14px;
+}
+
+#formobile {
+    display: none;
+}
+
+
+
+
+.bounce {
+    color: white;
+    margin-top: 18%;
+    font-size: 4rem;
+    font-family: lucidahand;
+}
+
+#para {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 20%;
+    text-align: center;
+    margin: 0 11% auto;
+    font-family: lucidasans;
+}
+
+.about-para {
+    margin: 0 10% auto;
+    color: darkslategray;
+    font-size: x-large;
+    text-align: justify;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-items: center;
+    grid-gap: 4%;
+}
+
+li>img {
+    width: 3rem;
+}
+
+.item1>ul {
+    list-style-type: none;
+}
+
+.item2>ul {
+    list-style-type: none;
+}
+
+.item3>ul {
+    list-style-type: none;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-items: center;
+    grid-gap: 5%;
+}
+
+#myCarousel {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.finalimg {
+    max-width: 100%;
+    max-height: none;
+    margin: 0 auto;
+}
+
+#item1 {
+    width: 70%;
+}
+
+#item2 {
+    font-size: large;
+}
+#item2>p{
+    margin-top: 5%;
+}
+#first-back,#second-back,#third-back{
+    height: 100vh;
+    background-size: cover;
+}
+
+
+#section {
+    height: 100vh;
+}
+#first-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 1%;
+}
+#second-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 48%);
+    grid-gap: 4%;
+}
+#third-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 31%);
+    grid-gap: 2%;
+    margin-top: 1%;
+}
+#fourth-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-gap: 2%;
+    margin-top: 1%;
+}
+@media screen and (min-width:1693px) {
+    .navbar-nav>li>a {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .navbar-nav>li>a {
+        font-size: 5rem;
+    }
+
+    #lastone {
+        padding-top: 0;
+    }
+
+    .navbar-brand>img {
+        width: 40%;
+        height: 100px;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width:1133px) {
+    .navbar-nav>li>a {
+        font-size: large;
+    }
+    .first-g,
+    .third-g,
+    .fourth-g {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #logo {
+        height: 10vh;
+    }
+
+    #tab {
+        display: contents;
+    }
+    .first-g,
+    .third-g,
+    .fourth-g {
+        max-width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:570px) {
+    .navbar-nav>li>a {
+        font-size: larger;
+    }
+
+    #formobile {
+        display: contents;
+    }
+
+    #navbar-light {
+        width: 100%;
+        background-color: white;
+        position: fixed;
+    }
+
+    #forpc {
+        display: none;
+    }
+
+    #headerforpc {
+        margin: 0 auto;
+        margin-top: 21%;
+    }
+    #section{
+        height: 40vh;
+        margin-top: 22%;
+    }
+    #first-back,#second-back,#third-back {
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .bounce {
+        margin: 1% auto;
+        font-size: larger;
+        margin-top: 9%;
+    }
+
+    #para {
+        font-size: small;
+        margin-bottom: 8%;
+    }
+
+    .about-para {
+        margin: 0 auto;
+        font-size: large;
+    }
+
+    .grid {
+        grid-template-columns: auto;
+        grid-gap: 0px;
+    }
+
+    .item1,
+    .item2,
+    .item3 {
+        width: 100%;
+        font-size: xx-small;
+    }
+
+    #grid {
+        grid-template-columns: auto;
+        grid-gap: 0px;
+    }
+
+    #item1 {
+        width: 100%;
+    }
+
+    #item2 {
+        width: 100%;
+        font-size: x-large;
+        text-align: center;
+    }
+
+    #myCarousel {
+        max-width: 100%;
+        height: 40vh;
+        margin: 0 auto;
+    }
+
+    .finalimg {
+        max-width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+
+    footer {
+        margin-top: 3%;
+    }
+
+    #finalhead {
+        font-size: x-large;
+    }
+
+    #imagefrpc {
+        margin: -12px auto;
+    }
+
+    .first-g,.third-g,.fourth-g{
+        max-width: 100%;
+    }
+
+}
+@font-face{
+    font-family: 'lucidahand';
+    src: url('../fonts/lucida-handwriting-italic-14451.ttf');
+}
+@font-face {
+    font-family: 'lucidasans';
+    src: url('../fonts/911Fonts.com_LucidaSansItalic__-_911fonts.com_fonts_lGyV.ttf');
+}
