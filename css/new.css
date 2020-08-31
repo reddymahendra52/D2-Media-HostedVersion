@@ -154,6 +154,27 @@ li>img {
     .fourth-g {
         max-width: 100%;
     }
+    #section {
+        height: 80vh;
+        margin-top: 10%;
+    }
+
+    #first-back,
+    #second-back,
+    #third-back {
+        height: 80vh;
+        background-size: cover;
+    }
+    .bounce {
+        margin: 1% auto;
+        font-size: xx-large;
+        margin-top: 15%;
+    }
+
+    #para {
+        font-size: x-large;
+        margin-bottom: 8%;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -168,6 +189,27 @@ li>img {
     .third-g,
     .fourth-g {
         max-width: 100%;
+    }
+    #section {
+        height: 70vh;
+        margin-top: 17%;
+    }
+
+    #first-back,
+    #second-back,
+    #third-back {
+        height: 70vh;
+        background-size: cover;
+    }
+    .bounce {
+        margin: 1% auto;
+        font-size: xx-large;
+        margin-top: 15%;
+    }
+
+    #para {
+        font-size: large;
+        margin-bottom: 8%;
     }
     
 }
