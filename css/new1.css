@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'lucidahand';
+    src: url('../fonts/lucida-handwriting-italic-14451.ttf');
+}
+.navbar-nav>li>a {
+    font-size: x-large;
+}
+.navbar-brand>img {
+    max-width: 100%;
+    height: 80px;
+}
+#lastone {
+    padding-top: 14px;
+}
+#formobile {
+    display: none;
+}
+#headerforpc {
+    margin: 0 15% auto;
+}
+#about-top{
+    margin-top: 7%;
+}
+.about-para {
+    margin: 0 10% auto;
+    color: #E2BB2C;
+    font-size: xx-large;
+    text-align: center;
+}
+#first-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 1%;
+}
+
+#second-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 1%;
+    margin-top: 2%;
+}
+
+#third-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 1%;
+    margin-top: 2%;
+}
+
+#fourth-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-gap: 2%;
+    margin-top: 2%;
+}
+#fifth-grid{
+    display: grid;
+    grid-template-columns: repeat(2,47%);
+    grid-gap: 2%;
+    margin-top: 2%;
+}
+#sixth-grid{
+    display: grid;
+    grid-template-columns: repeat(2,47%);
+    grid-gap: 2%;
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+@media screen and (min-width:1693px) {
+    .navbar-nav>li>a {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .navbar-nav>li>a {
+        font-size: 5rem;
+    }
+
+    #lastone {
+        padding-top: 0;
+    }
+
+    .navbar-brand>img {
+        width: 40%;
+        height: 100px;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (max-width:1033px) {
+    .navbar-nav>li>a {
+        font-size: large;
+    }
+    .navbar-brand>img {
+        max-width: 100%;
+        height: 60px;
+    }
+    .first-g {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #logo {
+        height: 10vh;
+    }
+
+    #tab {
+        display: contents;
+    }
+    .first-g {
+        max-width: 100%;
+    }
+    #sixth-grid{
+        font-size: small;
+    }
+    #about-top{
+        margin-top:15%;
+    }
+    #fifth-grid{
+        grid-gap: 6%;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .navbar-nav>li>a {
+        font-size: larger;
+    }
+    #formobile {
+        display: contents;
+    }
+    #navbar-light {
+        width: 100%;
+        background-color: white;
+        position: fixed;
+    }
+    #forpc {
+        display: none;
+    }
+    .about-para {
+        margin: 0 auto;
+        font-size: large;
+    }
+    footer {
+        margin-top: 3%;
+    }
+    #imagefrpc {
+        margin: -12px auto;
+    }
+    .navbar-brand>img {
+        max-width: 100%;
+        height: 50px;
+    }
+    .first-g{
+        max-width: 100%;
+    }
+    #fifth-grid{
+        grid-gap: 6%;
+    }
+    #about-top{
+        margin-top: 18%;
+    }
+    #sixth-grid{
+        grid-template-columns: auto;
+        font-size: medium;
+    }
+}
