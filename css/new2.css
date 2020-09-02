@@ -1,0 +1,196 @@
+@font-face {
+    font-family: 'lucidahand';
+    src: url('../fonts/lucida-handwriting-italic-14451.ttf');
+}
+.navbar-nav>li>a {
+    font-size: x-large;
+}
+
+.navbar-brand>img {
+    max-width: 100%;
+    height: 50px;
+}
+
+#lastone {
+    padding-top: 14px;
+}
+
+#formobile {
+    display: none;
+}
+
+#headerforpc {
+    margin: 0 15% auto;
+}
+
+section{
+    background-image: url("../images/young-girl-working-on-a-computer@2x.png");
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    height: auto;
+    margin-top: 6%;
+}
+
+.bounce {
+    color: white;
+    margin-top: 3%;
+    font-size: xxx-large;
+}
+
+#para {
+    color: white;
+    font-size: xx-large;
+    text-align: justify;
+    margin: 0 13% auto;
+    font-family: 'Lucida Sans';
+}
+#gridtop{
+    display: grid;
+    grid-template-columns: repeat(2,44%);
+    grid-gap: 13%;
+}
+
+ul{
+    list-style-type: none;
+}
+.item1>li{
+    font-size: xx-large;
+    color: white;
+}
+#enroll,#submit{
+    text-align: center;
+}
+#btn{
+    background-color: white;
+    color: #ff2093;
+    border: 1px solid #ff2093;
+    margin-bottom: 3%;
+}
+#sub{
+    background-color: #ff2093;
+    color: white;
+}
+#sixth-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 47%);
+    grid-gap: 2%;
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+
+
+
+
+@media screen and (min-width:1693px) {
+    .navbar-nav>li>a {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (min-width:2560px) {
+    .navbar-nav>li>a {
+        font-size: 5rem;
+    }
+
+    #lastone {
+        padding-top: 0;
+    }
+
+    .navbar-brand>img {
+        width: 40%;
+        height: 100px;
+        margin-top: 3%;
+    }
+
+}
+
+@media screen and (max-width:1033px) {
+    .navbar-nav>li>a {
+        font-size: large;
+    }
+    li>img {
+        width: 5rem;
+    }
+
+    .item1>li {
+        font-size: x-large;
+    }
+    section{
+        margin-top: 23%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #logo {
+        height: 10vh;
+    }
+
+    #tab {
+        display: contents;
+    }
+    section{
+        margin-top: 15%;
+    }
+    #sixth-grid {
+        font-size: small;
+    }
+    #para{
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .navbar-nav>li>a {
+        font-size: larger;
+    }
+
+    #formobile {
+        display: contents;
+    }
+
+    #navbar-light {
+        width: 100%;
+        background-color: white;
+        position: fixed;
+    }
+
+    #forpc {
+        display: none;
+    }
+    .bounce {
+        margin: 1% auto;
+        font-size: x-large;
+        margin-top: 8%;
+    }
+    #imagefrpc {
+        margin: -12px auto;
+    }
+    section{
+        margin-top: 22%;
+    }
+    #para {
+        font-size: medium;
+        margin-bottom: 8%;
+        margin: auto;
+    }
+    li>img{
+        width: 4rem;
+    }
+    .item1>li{
+        font-size: medium;
+    }
+    #gridtop{
+        grid-gap: 0;
+        grid-template-columns: none;
+    }
+    .item1{
+        padding: 0;
+    }
+    #sixth-grid {
+        grid-template-columns: auto;
+        font-size: medium;
+    }
+}
