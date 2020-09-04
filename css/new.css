@@ -96,8 +96,10 @@ li>img {
     height: 100vh;
     background-size: cover;
 }
-
-
+#sub{
+    background-color:#ff2093;
+    color:#ffffff;
+}
 #section {
     height: 100vh;
 }
