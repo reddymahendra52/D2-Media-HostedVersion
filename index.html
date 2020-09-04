@@ -224,6 +224,9 @@
                                     class="form-control" name="TextArea" rows="8"
                                     placeholder="Please enter your message here..."></textarea>
                             </div>
+                            <div id="submit" style="text-align: center;">
+                                <button type="submit" class="btn btn-default" id="sub">Enroll</button>
+                            </div>
                         </form>
                     </div>
                     <div id="item2">
@@ -275,8 +278,13 @@
         </section>
         <footer style="background-color: black; margin-top: 2%;">
             <div class="container-fluid" style="max-width: 100%;">
-                <p style="margin: 2% auto;color: white;font-size: x-large;text-align: center;">Copyrights &copy;2020 | D2
+                <p style="margin: 2% auto;color: white;font-size: x-large;text-align: center;">Copyrights &copy;<span id="year"></span> | D2
                     Media</p>
+                <script>
+                    let date = new Date();
+                    let year = date.getFullYear();
+                    document.getElementById('year').innerHTML=year;
+                </script>
             </div>
         </footer>
     </div>
