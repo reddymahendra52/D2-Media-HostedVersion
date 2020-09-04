@@ -276,7 +276,7 @@ li>img {
 
     #grid {
         grid-template-columns: auto;
-        grid-gap: 0px;
+        grid-gap: 2%;
     }
 
     #item1 {
