@@ -159,8 +159,13 @@
                         <p><img src="images/twitter1.svg" alt="">  d2mediagh</p>
                     </div>
                 </div>
-                <p style="margin: 2% auto;color: white;font-size: x-large;text-align: center;">Copyrights &copy;2020 | D2
+                <p style="margin: 2% auto;color: white;font-size: x-large;text-align: center;">Copyrights &copy;<span id="year"></span> | D2
                     Media</p>
+                <script>
+                    let date = new Date();
+                    let year = date.getFullYear();
+                    document.getElementById('year').innerHTML=year;
+                </script>
             </div>
         </footer>
     </div>
